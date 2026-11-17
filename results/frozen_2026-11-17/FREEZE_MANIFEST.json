@@ -1,0 +1,42 @@
+{
+  "frozen_on": "2026-11-17",
+  "written_on": "2026-11-17",
+  "rule": "Do not refit or edit. Score once with src/score_forward.py after the 2027 regular season.",
+  "pre_registered_success_criteria": "docs/PHASE3_PREREGISTRATION.md (same thresholds as the 2025\u201326 test)",
+  "marcel_offset": -0.004865327261042536,
+  "marcel_K": 3000,
+  "features": [
+    "woba",
+    "xwoba",
+    "xwoba_gap",
+    "xslg",
+    "xba",
+    "barrel_batted_rate",
+    "hard_hit_percent",
+    "exit_velocity_avg",
+    "launch_angle_avg",
+    "sweet_spot_percent",
+    "k_percent",
+    "bb_percent",
+    "whiff_percent",
+    "oz_swing_percent",
+    "sprint_speed",
+    "player_age",
+    "pa",
+    "d_xwoba",
+    "d_barrel_batted_rate",
+    "d_exit_velocity_avg",
+    "d_k_percent",
+    "marcel_woba"
+  ],
+  "n_training_rows": 2674,
+  "n_predictions": 361,
+  "status_of_probabilities": "EXPERIMENTAL: not validated in 2025\u201326 test; not shown on dashboards",
+  "sha256": {
+    "input_model_hitters.parquet": "448de32651438f624346b074043e212bb2da14872844b6bb76f8a8d3979e502e",
+    "predictions_2027.csv": "a6ca132373899734729e05f8421c281b5e0afce1e6bfa2b64ea979997165531c",
+    "ridge.joblib": "cb4057d2d74a8d2582892b8c59db46df9af75d75d2f70fc2c683310ff5f21fe5",
+    "logit_breakout.joblib": "23efa077e8585f0ca8d7dd854eb68decd63b56ded5fc9efb8486f5fe6b20ecfc",
+    "logit_regression.joblib": "6a801284d93b4b520b3fad7a621272d9a99799ded55301e97efa96ec101cbcdb"
+  }
+}

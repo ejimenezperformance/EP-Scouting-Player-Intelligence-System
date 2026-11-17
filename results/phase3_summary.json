@@ -1,0 +1,49 @@
+{
+  "marcel_offset": -0.005260407687991404,
+  "marcel_K": 3000,
+  "n": {
+    "forecast": 361,
+    "test": 713,
+    "train": 2131,
+    "valid": 720
+  },
+  "regression_meta": {
+    "ridge_alpha": 1,
+    "xgb_params": {
+      "n": 150,
+      "depth": 2,
+      "lr": 0.05
+    },
+    "valid_mae": {
+      "marcel_bc": 0.02511010906338375,
+      "ridge": 0.02407804992113117,
+      "xgb": 0.02437524247449799
+    }
+  },
+  "classifier_meta": {
+    "breakout": {
+      "C": 1,
+      "xgb_params": {
+        "n": 150,
+        "depth": 3,
+        "lr": 0.02
+      }
+    },
+    "regression": {
+      "C": 1,
+      "xgb_params": {
+        "n": 150,
+        "depth": 2,
+        "lr": 0.02
+      }
+    }
+  },
+  "survivorship": {
+    "n_test_all": 713,
+    "lost_role_rate": 0.2594670406732118,
+    "auc_p_regression_vs_lost_role": 0.6856162981162981,
+    "auc_lo": 0.6411797306757944,
+    "auc_hi": 0.7292970512049264
+  },
+  "models_passed_for_forecast": {}
+}

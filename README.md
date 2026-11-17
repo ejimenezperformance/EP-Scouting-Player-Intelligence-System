@@ -2,6 +2,8 @@
 
 **Emerson Performance (EP)** · Emerson Jimenez · public Statcast 2015–2026
 
+**Live app:** [ep-scouting-player-intelligence-system-ekqptyv3xmmxwf4nykfg2e.streamlit.app](https://ep-scouting-player-intelligence-system-ekqptyv3xmmxwf4nykfg2e.streamlit.app/)
+
 > **EN — Headline:** Can public Statcast find MLB hitters who will outperform — or underperform — next season?
 > Tested against a simple projection (Marcel) with rules fixed in advance, **no model beat it by the required margin**:
 > the best (Ridge) cut next-season wOBA error by 0.6 points (×1000) vs a 2.0 bar; XGBoost added nothing.
@@ -39,6 +41,8 @@
 - Full write-up: [`docs/PHASE3_RESULTS.md`](docs/PHASE3_RESULTS.md) · design: [`docs/PHASE3_PREREGISTRATION.md`](docs/PHASE3_PREREGISTRATION.md)
 
 ## Executive dashboard
+
+**Live:** https://ep-scouting-player-intelligence-system-ekqptyv3xmmxwf4nykfg2e.streamlit.app/
 
 ```bash
 pip install -r requirements.txt

@@ -1,0 +1,7 @@
+young,perf_tier,n,rate
+18.5 and older,Bottom third,370,0.06486486486486487
+18.5 and older,Middle third,369,0.13821138211382114
+18.5 and older,Top third,370,0.23783783783783785
+Under 18.5,Bottom third,295,0.12542372881355932
+Under 18.5,Middle third,294,0.19727891156462585
+Under 18.5,Top third,295,0.3559322033898305

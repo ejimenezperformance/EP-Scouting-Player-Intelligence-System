@@ -40,6 +40,10 @@
 - **Where the small signal is:** average exit velocity, xwOBA − wOBA, Sweet-Spot% (SHAP / Ridge).
 - Full write-up: [`docs/PHASE3_RESULTS.md`](docs/PHASE3_RESULTS.md) · design: [`docs/PHASE3_PREREGISTRATION.md`](docs/PHASE3_PREREGISTRATION.md)
 
+## International module: first DSL season | Módulo internacional
+
+Does a player's first Dominican Summer League season tell us more than his age? Yes: out of sample, AUC for reaching Double-A rises from 0.57 to 0.74 (hitters) and 0.73 (pitchers). Code, results and charts: [`international/`](international/).
+
 ## Executive dashboard
 
 **Live:** https://ep-scouting-player-intelligence-system-ekqptyv3xmmxwf4nykfg2e.streamlit.app/

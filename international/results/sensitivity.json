@@ -1,0 +1,50 @@
+{
+ "hitters | performance only (no playing time)": [
+  0.731,
+  0.161,
+  [
+   0.112,
+   0.214
+  ]
+ ],
+ "hitters | K% only": [
+  0.699,
+  0.129,
+  [
+   0.079,
+   0.179
+  ]
+ ],
+ "hitters | playing time only": [
+  0.679,
+  0.109,
+  [
+   0.064,
+   0.158
+  ]
+ ],
+ "pitchers | performance only (no playing time)": [
+  0.717,
+  0.151,
+  [
+   0.104,
+   0.203
+  ]
+ ],
+ "pitchers | K-BB% only": [
+  0.713,
+  0.148,
+  [
+   0.101,
+   0.196
+  ]
+ ],
+ "pitchers | playing time only": [
+  0.646,
+  0.08,
+  [
+   0.039,
+   0.122
+  ]
+ ]
+}

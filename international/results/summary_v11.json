@@ -1,0 +1,30 @@
+{
+  "hitters_brewers": {
+    "n": 55.0,
+    "reached": 4.0,
+    "expected": 9.83243991340863,
+    "rate": 0.07272727272727272,
+    "gap_per_100": -10.604436206197509,
+    "p_low": 0.0056,
+    "p_high": 0.9944,
+    "sim_lo": -8.786254388015687,
+    "sim_hi": 9.395563793802495,
+    "rank_low_to_high": 2.0,
+    "p_any_club_this_low_by_chance": 0.1806,
+    "rank_of_30": 2
+  },
+  "pitchers_brewers": {
+    "n": 38.0,
+    "reached": 9.0,
+    "expected": 7.264252113561861,
+    "rate": 0.23684210526315788,
+    "gap_per_100": 4.567757595889839,
+    "p_low": 0.836,
+    "p_high": 0.164,
+    "sim_lo": -11.22171608832069,
+    "sim_hi": 12.4624944379951,
+    "rank_low_to_high": 27.0,
+    "p_any_club_this_low_by_chance": 1.0,
+    "rank_of_30": 27
+  }
+}
